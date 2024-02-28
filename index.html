@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="dots-icon">
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <div class="main-nav">
+                <div class="main-item-container">
+                    <div class="main-nav-item">
+                        <div class="nav-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <p class="nav-font">Home</p>
+                        <a href="www.spotify.com"></a>
+                    </div>
+                    
+                    <div class="main-nav-item">
+                        <div class="nav-icon">
+                            <i class="fas fa-th-large"></i>
+                        </div>
+                        <p class="nav-font">Browse</p>
+                    </div>
+        
+                    <div class="main-nav-item">
+                        <div class="nav-icon">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <p class="nav-font">Radio</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-container">
+                <div class="your-library-playlist">
+                    <p>your library</p>
+                    <ul class="library-list">
+                        <li class="nav-font">Made for you</li>
+                        <li class="nav-font">Recently made</li>
+                        <li class="nav-font">Liked Songs</li>
+                        <li class="nav-font">Albums</li>
+                        <li class="nav-font">Artists</li>
+                        <li class="nav-font">Podcasts</li>
+                    </ul>
+                </div>
+    
+                <div class="your-library-playlist">
+                    <p>playlists</p>
+                    <ul class="playlist-list">
+                        <li>Favorite songs 2019</li>
+                        <li>On repeat</li>
+                        <li>sleep music</li>
+                        <li>workout music</li>
+                        <li>Jams</li>
+                        <li>Sad music</li>
+                        <li>Happy music</li>
+                        <li>Car music</li>
+                        <li>Favorite songs 2018</li>
+                        <li>Relaxing music</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="add-playlist">
+                <div class="add-playlist-btn">
+                    <i class="fas fa-plus-circle"></i>
+                </div>
+                <p>New Playlist</p>
+            </div>
+        </nav>
+        <main>
+            <header>
+                    <div class="header-container">
+                        <div class="left-container">
+                            <div class="left-right-icons">
+                                <i class="fas fa-chevron-left"></i>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+        
+                            <div class="search-bar">
+                                <input class='search-box' type="text" placeholder="Search">
+                            </div>
+                        </div>
+    
+                        <div class="right-container">
+                            <div class="upgrade-button">
+                                <button>UPGRADE</button>
+                            </div>
+    
+                            <div class="username">
+                                <div class="header-btn">
+                                    <i class="far fa-user"></i>
+                                </div>
+                                <p>Username</p>                          
+                            </div>
+    
+                            <div class="arrow-down">
+                                <div class="header-btn">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+    
+                            <!-- <div class="window-btns">
+                                <div class="window-btn">
+                                    <i class="far fa-window-minimize"></i>
+                                </div>
+                                <div class="window-btn">
+                                    <i class="far fa-window-maximize"></i>
+                                </div>
+                                <div class="window-btn btn-close">
+                                    <i class="far fa-window-close"></i>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </header>
+                
+
+            <div class="main-item-container">
+                <div class="banner-img">
+                    <img src="logo.jpg.png" alt="logo" height="100" width="150"/>
+                </div>
+
+                <div class="recently-played-container music-container">
+                    <div class="recently-played-text">
+                        <p class="music-container-heading">Recently Played</p>
+                        <hr>
+                    </div>
+
+                    <div class="song-picture-container">
+                        <div class="song-picture">
+                            <img width="250px" src="images/pnb-rock-album.jpg" alt="">
+                            <p class="song-title-heading">Catch These Vibes</p>
+                            <p>PnB Rock</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/pop-smoke-album.jpg" alt="">
+                            <p class="song-title-heading">Shoot For The Stars Aim For The Moon</p>
+                            <p>Pop Smoke</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/lil-uzi-album.jpg" alt="">
+                            <p class="song-title-heading">Eternal Atake</p>
+                            <p>Lil Uzi Vert</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/kid-cudi-album.jpg" alt="">
+                            <p class="song-title-heading">Man on The Moon 3</p>
+                            <p>Kid Cudi</p>
+                            <a href="www.google.com"></a>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/kanye-west-album.jpg" alt="">
+                            <p class="song-title-heading">Graduation</p>
+                            <p>Kanye West</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/drake-album.jpg" alt="">
+                            <p class="song-title-heading">Scorpion</p>
+                            <p>Drake</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/drake-album-3.jpg" alt="">
+                            <p class="song-title-heading">Care Package</p>
+                            <p>Drake</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/aboogie-album.jpg" alt="">
+                            <p class="song-title-heading">Hoodie Szn</p>
+                            <p>A Boogie wit da Hoodie</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="your-playlist-container music-container">
+                    <div class="your-playlist-text">
+                        <p class="music-container-heading">Your Playlists</p>
+                        <hr>
+                    </div>
+
+                    <div class="song-picture-container">
+                        <div class="song-picture">
+                            <img width="250px" src="images/cousin-stizz-album.jpg" alt="">
+                            <p class="song-title-heading">Cold Times</p>
+                            <p>Cousin Stizz</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/jcole-album.jpg" alt="">
+                            <p class="song-title-heading">2014 Forest Hills Drive</p>
+                            <p>J Cole</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/jcole-album-2.jpg" alt="">
+                            <p class="song-title-heading">The Off Season</p>
+                            <p>J Cole</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/johnny-yukon-album.jpg" alt="">
+                            <p class="song-title-heading">Installation ll</p>
+                            <p>Johnny Yukon</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/kids-see-ghosts-album.jpg" alt="">
+                            <p class="song-title-heading">Kids See Ghosts</p>
+                            <p>Kids See Ghosts</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="popular-albums-container music-container">
+                    <div class="popular-albums-text">
+                        <p class="music-container-heading">Popular Albums</p>
+                        <hr>
+                    </div>
+
+                    <div class="song-picture-container">
+                        <div class="song-picture">
+                            <img width="250px" src="images/lil-uzi-album-2.jpg" alt="">
+                            <p class="song-title-heading">The Perfect LUV Tape</p>
+                            <p>Lil Uzi Vert</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/metro-boomin-album.jpg" alt="">
+                            <p class="song-title-heading">NOT ALL HEROES WEAR CAPES</p>
+                            <p>Metro Boomin</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/polog-album.jpg" alt="">
+                            <p class="song-title-heading">Die A Legend</p>
+                            <p>Polo G</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trending-now-container music-container">
+                    <div class="trending-now-text">
+                        <p class="music-container-heading">Trending now</p>
+                        <hr>
+                    </div>
+
+                    <div class="song-picture-container">
+                        <div class="song-picture">
+                            <img width="250px" src="images/postmalone-album.jpg" alt="">
+                            <p class="song-title-heading">Hollywood's Bleeding</p>
+                            <p>Post Malone</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/torylanez-album.jpg" alt="">
+                            <p class="song-title-heading">Love me Now?</p>
+                            <p>Tory Lanez</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/youngthug-album.jpg" alt="">
+                            <p class="song-title-heading">So Much Fun</p>
+                            <p>Young Thug</p>
+                        </div>
+
+                        <div class="song-picture">
+                            <img width="250px" src="images/drake-album-2.jpg" alt="">
+                            <p class="song-title-heading">More Life</p>
+                            <p>Drake</p>
+                        </div>
+                    </div>                   
+                </div>
+
+                <div class="tap-controls">
+                    <div class="touch" class="home-touch">
+                        <i class="fas fa-home"></i>
+                        <p>Home</p>
+                    </div>
+                    <div class="touch" class="search-touch">
+                        <i class="fas fa-search"></i>
+                        <p>Search</p>
+                    </div>
+                    <div class="touch" class="your-library-touch">
+                        <i class="fas fa-bars"></i>
+                        <p>Your Library</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
